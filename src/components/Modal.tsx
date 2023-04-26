@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import * as S from '@/styles/modal';
 import Image from 'next/image';
-import close from '../asset/img/close.svg';
-import welcome from '../asset/img/welcome.svg';
+import close from '@/asset/img/close.svg';
+import welcome from '@/asset/img/welcome.svg';
 import LoginForm from './Auth/LoginForm';
 import JoinForm from './Auth/JoinForm';
 

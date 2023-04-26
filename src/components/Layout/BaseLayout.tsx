@@ -7,7 +7,7 @@ import Link from 'next/link';
 import Modal from '../Modal';
 
 function BaseLayout({ children, hasHeader }: BaseLayoutProp) {
-  const [modalOpen, setModalOpen] = useState(true);
+  const [modalOpen, setModalOpen] = useState(false);
   return (
     <S.MainWrapper>
       {hasHeader && (
